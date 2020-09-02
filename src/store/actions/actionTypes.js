@@ -1,0 +1,10 @@
+export const DATA_QURAN_START = "DATA_QURAN_START";
+export const DATA_QURAN_SUCCESS = "DATA_QURAN_SUCCESS";
+export const DATA_QURAN_FAIL = "DATA_QURAN_FAIL";
+
+export const SOURAH_NAME_START = "SOURAH_NAME_START";
+export const SOURAH_NAME = "SOURAH_NAME";
+export const SOURAH_NUMBER = "SOURAH_NUMBER";
+
+// export const AYAH_NAME = "AYAH_NAME";
+// export const AYAH_NUMBER = "AYAH_NUMBER";

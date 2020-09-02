@@ -1,0 +1,37 @@
+/*
+box-sizing: border-box;
+ Calculate the "border-box":
+  Total width: 100%;
+  Total height: 56px;
+    Content box width: 100%  - (2 * 20px) - (2 * 8px) = 104px
+    Content box height: 56px - (2 * 20px) - (2 * 8px) = 24px 
+*/
+
+.Toolbar {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+}
